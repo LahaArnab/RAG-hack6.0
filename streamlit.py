@@ -1,3 +1,8 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 import streamlit as st
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -430,4 +435,5 @@ st.sidebar.markdown("**Advantages:**")
 st.sidebar.markdown("- ✅ Reliable vector storage")
 st.sidebar.markdown("- 🎯 Accurate AI responses")
 st.sidebar.markdown("- 📚 Source attribution")
+
 st.sidebar.markdown("- 🔄 Context-aware answers")
