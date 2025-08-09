@@ -7,3 +7,4 @@ google-generativeai
 pypdf
 duckdb
 pysqlite3-binary
+nest_asyncio
