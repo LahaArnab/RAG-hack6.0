@@ -38,8 +38,8 @@ CHROMA_PATH = "chroma_db"  # Directory to store the Chroma database
 PREDEFINED_COLLECTION = "pdf_documents"  # Predefined collection name
 
 # Set your Google API Key here (hardcoded)
-GOOGLE_API_KEY = "AIzaSyBtp9I7w2PTxKM6WLMzci3qW8Z904jmWvA"  # Replace with your actual API key
-# GOOGLE_API_KEY= st.secrets["AIzaSyDNy7UW2rTV9WRCJwG5ailDCu3mQOS3LUE"]  # Replace with your actual API key
+GOOGLE_API_KEY = "AI...."  # Replace with your actual API key
+# GOOGLE_API_KEY= st.secrets["AI....."]  # Replace with your actual API key
 # --- UI Configuration ---
 st.set_page_config(page_title="PDF Query with ChromaDB + Gemini RAG", layout="wide")
 st.title("📄 PDF Query System with ChromaDB + Gemini RAG")
@@ -437,4 +437,5 @@ st.sidebar.markdown("- 🎯 Accurate AI responses")
 st.sidebar.markdown("- 📚 Source attribution")
 
 st.sidebar.markdown("- 🔄 Context-aware answers")
+
 
